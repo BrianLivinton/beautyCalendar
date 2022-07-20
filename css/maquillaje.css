@@ -1,0 +1,94 @@
+*{padding: 7px;margin: 4px;
+    font-family: 'Concert One', cursive;
+  }
+      
+  header{
+      
+  padding: 10px;
+      
+  color: #D9AB9A;
+  }
+  .barraNavegacion{
+      display: flex;
+    justify-content: center
+  }
+
+  .barraNavegacion ul li a{
+    text-decoration: none;
+    color: #D9AB9A;
+    padding: 31px;
+    border: 5px solid #BF4B4B;
+    margin: 3px 11px 6px 13px;
+    background: #BF4B4B;
+    display: inline-block;
+    list-style:none;
+  
+  }
+  li{
+      
+  margin: 10px 5px 10px 6px;
+  list-style-type: none;
+  justify-content: space-between;
+  display:inline-block
+  }
+.comoMaquillarse {
+margin: 5px;
+color: #BF4B4B;
+border: 5px solid #BF4B4B;
+}
+.imagenMaquillaje{
+margin: 9px 22px 3px 127px;
+color: #BF4B4B;
+display: flex;
+justify-content: center;
+}
+.principal{
+margin: 5px 2px 5px 2px;
+color: #BF4B4B;
+display: block;
+
+}
+.pasosParaMAquillarse{
+margin: 5px;
+color: #BF4B4B;
+
+}
+.titulo{
+padding: 36px;
+text-align: center;
+margin: 9px 5px 10px 5px;
+color: #D9AB9A;
+border: 10px solid #BF4B4B;
+background: #BF4B4B;
+}
+.sub{
+padding: 5px;
+border:5px solid #BF4B4B ;
+color: #D9AB9A;
+text-align: left;
+margin: 10px 10px, 10px, 10px;
+display: inline;
+background-color: #BF4B4B;
+
+}
+.bloques{
+padding: 10px;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: stretch;
+}
+  .iconos{
+      display: flex;
+    justify-content: center
+  }
+  .redes{
+      max-width: 28px;
+      max-height: 39px;
+      margin: 10px;
+      border: 5px solid #BF4B4B;
+      margin-left: 146px;
+      margin-right: 202px;
+      text-decoration: none;
+  
+  }

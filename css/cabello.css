@@ -1,0 +1,76 @@
+*{padding: 7px; 
+  margin: 4px;
+  font-family: 'Concert One';
+}
+    
+header{
+    
+padding: 10px;
+    
+color: #D9AB9A;
+}
+.barraNavegacion{
+    display: flex;
+  justify-content: center;
+}
+
+.barraNavegacion ul li a{
+  text-decoration: none;
+  color: #D9AB9A;
+  padding: 31px;
+  border: 5px solid #BF4B4B;
+  margin: 3px 11px 6px 13px;
+  background: #BF4B4B;
+  display: inline-block;
+  list-style:none;
+
+}
+li{
+    
+margin: 10px 5px 10px 6px;
+list-style-type: none;
+justify-content: space-between;
+display:inline-block;
+}
+.redes{
+  max-width: 28px;
+  max-height: 39px;
+  margin: 10px;
+  border: 5px solid #BF4B4B;
+  margin-left: 146px;
+  margin-right: 202px;
+  text-decoration: none;
+
+}
+.porosidadQueEs{
+padding: 90px;
+text-align: left;
+margin:17px 31px 29px 17px;
+border: 16px solid #BF4B4B;
+background: #D9AB9A;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: space-between;
+justify-content: space-around;
+}
+.cuticula{
+  padding: 90px;
+  text-align: left;
+  margin:17px 31px 29px 17px;
+  border: 16px solid #BF4B4B;
+  background: #D9AB9A;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.pruebaPorosidad{
+  padding: 90px;
+  text-align: left;
+margin:17px 31px 29px 17px;
+  border: 16px solid #BF4B4B;
+  background: #D9AB9A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

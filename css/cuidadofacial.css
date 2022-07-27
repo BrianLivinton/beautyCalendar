@@ -1,138 +1,135 @@
 *{
-padding: 0;
-margin: 0;
-}
-body{
-  color:#D9C9BA ;
-  background-color: #403D3D;
-}
-.barraNavegacion{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.barraNavegacion ul li a{
-text-decoration: none;
-color: #403D3D;
-padding: 31px;
-margin: 3px 11px 6px 13px;
-background: #736A62;
-display: inline-block;
-}
-li{  
-margin: 10px 5px 10px 6px;
-list-style-type: none;
-justify-content: space-between;
-display:inline-block
-}
-ul {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
-}
-
-article {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #736A62;
-  border: solid #736A62 15px;
-}
-.inicio {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 36px;
-}
-
-p.pieDeFoto {
-  margin: 15px;
-}
-h1.titulo {
-  margin: 15px;
-}
-
-.pielNormal {
-  margin: 15px;
-}
-
-.pielSeca {
-  margin: 15px;
-}
-
-.pielGrasa {
-  margin: 15px;
-}
-
-.pielMixta {
-  margin: 15px;
-}
-img.redes {
-  margin: 22px;
-}
-body.grid {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-template-areas:
-  "nav"
-  "titulo"
-  "intro"
-  "pielNormal"
-  "pielSeca"
-  "pielGrasa"
-  "pielMixta"
-  "publicidad"
-  "pie";
+  padding: 0;
+  margin: 0;
+  }
+  body{
+    color:#D9C9BA ;
+    background-color: #403D3D;
+  }
+  .barraNavegacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   
-}
-.barraNavegacion{
-  grid-area: nav;
-}
-.conociendoTiposDePieles{
-  grid-area: titulo;
-}
-.inicio{
-  grid-area: intro;
-}
-
-aside{
-  grid-area: publicidad;
-}
-footer{
-  grid-area: pie;
-}
-@media(min-width:680px){
+  .barraNavegacion ul li a{
+  text-decoration: none;
+  color: #403D3D;
+  padding: 31px;
+  margin: 3px 11px 6px 13px;
+  background: #736A62;
+  display: inline-block;
+  }
+  li{  
+  margin: 10px 5px 10px 6px;
+  list-style-type: none;
+  justify-content: space-between;
+  display:inline-block
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
   
-  .grid{
+  article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #736A62;
+    border: solid #736A62 15px;
+  }
+  .inicio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+  }
+  
+  p.pieDeFoto {
+    margin: 15px;
+  }
+  h1.titulo {
+    margin: 15px;
+  }
+  
+  .pielNormal {
+    margin: 15px;
+  }
+  
+  .pielSeca {
+    margin: 15px;
+  }
+  
+  .pielGrasa {
+    margin: 15px;
+  }
+  
+  .pielMixta {
+    margin: 15px;
+  }
+  img.redes {
+    margin: 22px;
+  }
+  body.grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    align-items: center;
     grid-template-areas:
-    "nav nav  "
-    "titulo titulo "
-    "intro intro "
-    "pielNormal  pielSeca"
-    "pielGrasa  pielMixta"
-    "publicidad  publicidad"
-    "pie pie";
+      "nav"
+      "titulo"
+      "intro"
+      "pielNormal"
+      "pielSeca"
+      "pielGrasa"
+      "pielMixta"
+      "publicidad"
+      "pie";
   }
-  .pielNormal{
-    grid-area: pielNormal;
+  .barraNavegacion{
+    grid-area: nav;
   }
-  .pielSeca{
-    grid-area: pielSeca;
+  .conociendoTiposDePieles{
+    grid-area: titulo;
   }
-  .pielGrasa{
-    grid-area: pielGrasa;
+  .inicio{
+    grid-area: intro;
   }
-  .pielMixta{
-    grid-area: pielMixta;
+  
+  aside{
+    grid-area: publicidad;
   }
-}
+  footer{
+    grid-area: pie;
+  }
+  @media(min-width:680px){
+    
+    .grid{
+    
+      grid-template-areas:
+        "nav nav  "
+        "titulo titulo "
+        "intro intro "
+        "pielNormal  pielSeca"
+        "pielGrasa  pielMixta"
+        "publicidad  publicidad"
+        "pie pie";
+    }
+    .pielNormal{
+      grid-area: pielNormal;
+    }
+    .pielSeca{
+      grid-area: pielSeca;
+    }
+    .pielGrasa{
+      grid-area: pielGrasa;
+    }
+    .pielMixta{
+      grid-area: pielMixta;
+    }
+  }

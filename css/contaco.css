@@ -1,6 +1,4 @@
-*{
-    padding: 7px;
-    margin: 4px;
+*{padding: 7px;margin: 4px;
     font-family: 'Concert One', cursive;
   }
       
@@ -10,21 +8,24 @@
       
   color: #D9AB9A;
   }
+  body{
+    background-color: #736A62;
+  }
   .barraNavegacion{
       display: flex;
     justify-content: center
   }
-
+  
   .barraNavegacion ul li a{
     text-decoration: none;
-    color: #D9AB9A;
-    padding: 31px;
-    border: 5px solid #BF4B4B;
+    color: #D9C9BA;
+    padding: 21px;
+    border: 10px solid #403D3D;
     margin: 3px 11px 6px 13px;
-    background: #BF4B4B;
+    background: #403D3D;
     display: inline-block;
-    list-style:none;
-  
+    list-style:
+    none;
   }
   li{
       
@@ -33,17 +34,16 @@
   justify-content: space-between;
   display:inline-block
   }
-  .redes{
-    max-width: 28px;
-    max-height: 39px;
-    margin: 10px;
-    border: 5px solid #BF4B4B;
-    margin-left: 146px;
-    margin-right: 202px;
-    text-decoration: none;
-
-}
-
+  
+  
+  
+  
+  
+  .iconos{
+    display: flex;
+    justify-content: space-between;
+    background-color: #403D3D;
+  }
 
 label {
     display:
@@ -67,8 +67,8 @@ form {
  
 input, textarea {
     width: 393px;
-    height:27px;
-    background: #BF8A6B;
+    height: 27px;
+    background: #736A62;
     border: 7px solid #D9AB9A;
     padding: 11px;
     margin-top: 23px;
@@ -87,17 +87,15 @@ textarea {
     margin-top:20px;
     cursor:pointer;
 }
-.contactos{
-    padding: 54px;
-    text-align: center;
-    margin: 27px 119px 29px 377px;
-    /* border:19px solid #BF4B4B; */
-    border: 16px solid #BF4B4B;
-    background: #D9AB9A;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: space-evenly;
-    align-items: center;
+
+.contactos {
+  padding: 54px;
+  text-align: center;
+  margin: 34px 119px 29px 440px;
+  border: -34px solid #403D3D;
+  background: #403D3D;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }

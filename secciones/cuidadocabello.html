@@ -9,31 +9,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/cabello.css">
     <link rel="icon" href="../img/icono index.png">
 </head>
 <body>
   <header>
-    <div>
-      <nav class="barraNavegacion">
-        <ul> 
-          <li><a href="../index.html">Inicio</a></li> 
-          <li><a href="./cuidadofacial.html">Cuidado Facial</a></li> 
-          <li> <a href="./maquillaje.html">Maquillaje</a></li>
-          <li><a href="./cuidadocorporal.html">Cuidado Corporal</a></li>
-          <li> <a href="./cuidadocabello.html">Cuidado del Cabello</a> </li>
-          <li><a href="./contacto.html">Contacto</a> </li>
-      </ul>
-      </nav>
+    <div class="container">
+     <nav class="navbar navbar-expand-lg navbar-light barraNavegacion">
+       <div class="container-fluid">
+         <a class="navbar-brand" href="">
+           <img src="../img/icono index.png" alt="">
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav">
+             
+               <li class="nav-item">
+                 <a class="nav-link active" href="../index.html">INICIO</a>
+               </li>
+             <li class="nav-item">
+               <a class="nav-link active" href="../secciones/cuidadofacial.html">CUIDADO FACIAL</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="../secciones/maquillaje.html">MAQUILLAJE</a>
+              </li>
+             <li class="nav-item">
+               <a class="nav-link active" href="../secciones/cuidadocorporal.html">CUIDADO CORPORAL</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link active" href="../secciones/cuidadocabello.html">CUIDADO CABELLO</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link active" href="../secciones/contacto.html">CONTACTO</a>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+ 
     </div>
-</header>
+   </header> <!--fin barra de navegacion-->
      <main>
        <article>
 		 <div class="porosidadQueEs">
 			<h2>Qué es la porocidad del cabello</h2>
-			 <p>La porosidad del cabello es la facultad o capacidad que tiene nuestro cabello para absorber y retener la humedad y eso es un aspecto básico e imprescindible para mantener el pelo hidratado y nutrido. Entendamos como un es cabello, veamos la estructura de la fibra capilar :</p>
+      <div class="primerParrafo">
+			 <p>La porosidad del cabello es la facultad o capacidad que tiene nuestro cabello para absorber y retener la humedad y eso es un aspecto básico e imprescindible para mantener el pelo hidratado y nutrido.</p>
 		
-      <img src="../img/tallo_capilar_opt.webp">
+        <img src="../img/tallo_capilar_opt.webp">
+      </div>
     </div>
 		<div class="cuticula"> 
 			 <p> La cutícula es la parte más externa de la fibra capilar y es la que determina el grado de absorción y retención de la humedad. Además del obvio componente genético, al ser la parte más externa, también es la más afectada por los agentes externos, como el sol, la polución, el uso de aparatos de calor, los tratamientos químicos (desrizados, permanentes, tintes...),.. etc... , cuanto más estrés externo reciba nuestro cabello, más dañada o "abierta" estará nuestra cutícula y si tenemos en cuenta que la fibra capilar se compone básicamente de una proteína llamada queratina, podemos decir que la cutícula dañada sufre una pérdida importante de esa proteína, sobre todo en los cabellos que han sido sobre-procesados, teñidos, o expuestos a otros castigos como años de peinado con calor extremo, alisados, permanentes, etc...
@@ -51,9 +78,7 @@
 		 <p>
 		    Ahora viene "La Pregunta"... y como puedo saber la porosidad de mi cabello? Realmente si estamos atentos y aconstumbrados a observar nuestro pelo, en algunos casos se distingue claramente, sobre todo en los cabellos de ALTA POROSIDAD, ya que suelen ser cabello que siempre se ven secos y que cuando se mojan, se empapan rápidamente a la vez que se secan también muy rápido. Además tienden al encrespamiento de forma habitual, ya que al no retener la humedad el cabello está seco y con la cutícula abierta, como buscando agua porque.. tiene sed!! El cabello de BAJA POROSIDAD , al contrario... tarda varios minutos bajo la ducha en mojarse completamente y también requiere más tiempo para secarse. Hay unas pruebas sencillas que puedes hacer para averiguarlo y que se han hecho muy populares. 
     </p>
-			<p>
-			LA PRUEBA DEL VASO DE AGUA:
-    </p> 
+			
       <p>
 			<img src="../img/porosidad-cabello-pelo-rizado_opt-1.jpg">
     </p>
@@ -72,5 +97,6 @@
         <a href="https://web.whatsapp.com/"><img class="redes" src="../img/wht.png" alt="logo whatsapp"></a>
       </nav>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

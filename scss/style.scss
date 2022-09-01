@@ -4,14 +4,14 @@
     
   }
 body{
- color:#D9C9BA ;
- background-color: #403D3D;
+ color:#0D0D0D ;
+ background-color: #F3AEA5;
  display: grid;
  grid-template-areas:
        "nav nav nav "
        "titulo titulo titulo"
-       "publicidad articulo articulo"
-       "publicidad articulo articulo"
+       "articulo articulo articulo"
+       "articulo articulo articulo"
        "pie pie pie" ;
  grid-template-columns: 20% 40% 40%;
 
@@ -21,44 +21,52 @@ body{
       grid-area:nav; 
       align-items: center;
       grid-area: nav;
+      background-color:#BF8A7E;
+      font-size: 15px;
       .barraNavegacion{
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
-        background-color: #403D3D;
+        background-color: #BF8A7E;
+        
+        
       li{
          margin: 10px 5px 10px 6px;
          justify-content: space-between;
-         display:inline
+         display:inline;
+         
+
+         
         }
       a{
         text-decoration: none;
-        color: #403D3D;
         padding: 31px;
         margin: 3px 11px 6px 13px;
-        background: #736A62;
         display: block; 
+        
        }
+       
+       
+       
          
     }
 
  }
  h1{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    grid-area: titulo;
-    .titulo{
-        color: #D9C9BA;
-        background-color: #0D0D0D;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 18px;
-        margin: 71px 7px 1px 15px;
-      }   
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-area: titulo;
+  width: 100%;
+  height: 583px;
+  position: relative;
+  background-image: url(../img/portadaIndex.jpg);
+  background-position: center;
+  justify-content: flex-start;
+  font-size: 8rem;
  }
  
  main{
@@ -66,43 +74,37 @@ body{
     article{
      align-items: center;
      display: flex;
+     margin-top: 20px;
      .presentacion{
-        align-content: space-around;  
+        align-content: space-around; 
+       
       }
      p{
-      .texto{
-        font-size: 22px;
-        padding: 10px;
-        margin: 20px;
+      padding: 28px;
+      font-size: 25px;
+      margin: 10px; 
 
-       }
+      
       }
      img{
      grid-area:foto;
+     margin: 20px;
 
      }
     }
 
  }
- aside{
-    grid-area: publicidad;
-    .propaganda{
-     display: flex;
-     border: solid #BFB0A3 10px;
-     margin-top: 60px;
-    }
-
- }
+ 
  footer{
     grid-area: pie;
    .iconos{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 42px;
-    margin: 79px;
+    background-color: #BF8A7E;
 
    } 
    

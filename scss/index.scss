@@ -1,0 +1,75 @@
+@import "./layout/reset";
+@import "./layout/barraNavegacion";
+@import "./layout/footer";
+@import "./layout/cuerpo";
+
+
+body{
+    
+ display: grid;
+ grid-template-areas:
+ "nav nav nav "
+ "titulo titulo titulo"
+ "articulo articulo articulo"
+ "articulo articulo articulo"
+ "pie pie pie" ;
+grid-template-columns: 20% 40% 40%;
+       
+ 
+
+      
+
+ header{
+      grid-area:nav; 
+      align-items: center;
+      grid-area: nav;
+      background-color:#FAE8D7;
+      font-size: 15px;
+      
+      
+
+ }
+ h1{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-area: titulo;
+    width: 100%;
+    height: 172px;
+    position: relative;
+    background-position: center;
+    justify-content: space-around;
+    font-size: 8rem;
+    align-items: center;
+    background-color: #EBD8C7;
+ }
+ 
+ main{
+    grid-area: articulo;
+    article{
+     align-items: center;
+     display: flex;
+     margin-top: 30px;
+     
+     .presentacion{
+        align-content: space-around; 
+       
+      }
+     p{
+      padding: 28px;
+      font-size: 25px;
+      margin: 10px; 
+
+      
+      }
+     img{
+     grid-area:foto;
+     margin: 20px;
+
+     }
+    }
+
+ }
+ 
+ }

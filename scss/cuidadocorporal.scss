@@ -1,0 +1,25 @@
+@import "../scss/layout/barraNavegacion";
+@import "../scss/layout/cuerpo";
+@import "../scss/layout/footer";
+@import "../scss/layout/reset";
+@import "../scss/layout/titulo";
+
+.proqueExfoliar{
+    margin: 25PX;
+    background-color: #EBD8C7;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+
+   
+}
+.textoImagen{
+    margin: 15px;
+}
+.beneficiosDeExfoliar{
+    margin: 25px;
+    font-size: 20px;
+}

@@ -1,0 +1,94 @@
+.barraNavegacion {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #FAE8D7;
+  color: #1A1818;
+}
+.barraNavegacion li {
+  margin: 10px 5px 10px 6px;
+  justify-content: space-between;
+  display: inline;
+}
+.barraNavegacion a {
+  text-decoration: none;
+  padding: 31px;
+  margin: 3px 11px 6px 13px;
+  display: block;
+}
+
+body {
+  color: #1A1818;
+  background-color: #FAE8D7;
+}
+
+footer {
+  grid-area: pie;
+}
+footer .iconos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 42px;
+  background-color: #FAE8D7;
+}
+
+* {
+  padding: 0px;
+  margin: 0;
+  font-family: scotch-display, sans-serif;
+}
+
+.titulo {
+  grid-area: titulo;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  grid-area: titulo;
+  width: 100%;
+  height: 172px;
+  position: relative;
+  background-position: center;
+  justify-content: space-around;
+  font-size: 5rem;
+  align-items: center;
+  background-color: #EBD8C7;
+}
+
+.primerParrafo {
+  background-color: #403D3D;
+  color: antiquewhite;
+  border: #403D3D 15px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 30px;
+}
+
+.cuticula {
+  margin: 2px;
+  background-color: #403D3D;
+  color: antiquewhite;
+  border: #403D3D 15px solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.pruebaPorosidad {
+  margin: 2px;
+  background-color: #403D3D;
+  color: antiquewhite;
+  border: #403D3D 15px solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=cuidadodelcabello.css.map */

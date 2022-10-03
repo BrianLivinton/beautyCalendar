@@ -1,0 +1,30 @@
+.barraNavegacion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #FAE8D7;
+    color: #1A1818;  
+  li{
+     margin: 10px 5px 10px 6px;
+     justify-content: space-between;
+     display:inline;
+     
+     
+
+     
+    }
+    a{
+        text-decoration: none;
+        padding: 31px;
+        margin: 3px 11px 6px 13px;
+        display: block; 
+        
+        
+
+       }
+   
+   
+   
+     
+}

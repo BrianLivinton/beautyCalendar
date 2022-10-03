@@ -1,0 +1,38 @@
+@import "../scss/layout/barraNavegacion";
+@import "../scss/layout/cuerpo";
+@import "../scss/layout/footer";
+@import "../scss/layout/reset";
+@import "../scss/layout/titulo";
+
+.primerParrafo{
+    background-color: #403D3D;
+    color: antiquewhite;
+    border: #403D3D 15px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 30px;
+}
+.cuticula{
+    margin: 2px;
+    background-color: #403D3D;
+    color: antiquewhite;
+    border: #403D3D 15px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pruebaPorosidad{
+    margin: 2px;
+    background-color: #403D3D;
+    color: antiquewhite;
+    border: #403D3D 15px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}

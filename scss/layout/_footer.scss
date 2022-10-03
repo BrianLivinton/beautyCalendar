@@ -1,0 +1,13 @@
+footer{
+    grid-area: pie;
+   .iconos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 42px;
+    background-color: #FAE8D7;
+
+   } 
+}

@@ -1,0 +1,55 @@
+@import "../scss/layout/barraNavegacion";
+@import "../scss/layout/cuerpo";
+@import "../scss/layout/footer";
+@import "../scss/layout/reset";
+@import "../scss/layout/titulo";
+
+article{
+    margin: 15px;
+    display: grid;
+    grid-template-areas: 
+    "paso1 paso2"
+    "paso3 paso4"
+    "paso5 paso6"
+    "paso7 paso8";
+    grid-template-columns: 50% 50%;
+    li{
+        text-align: center;
+        font-size: 25px;
+        background-color: #1A1818;
+        color: bisque;
+        
+    }
+}
+.paso1{
+    grid-area: paso1;
+    margin: 10px;
+}
+.paso2{
+    grid-area: paso2;
+    margin: 10px;
+}
+.paso3{
+    grid-area: paso3;
+    margin: 10px;
+}
+.paso4{
+    grid-area: paso4;
+    margin: 10px;
+}
+.paso5{
+    grid-area: paso5;
+    margin: 10px;
+}
+.paso6{
+    grid-area: paso6;
+    margin: 10px;
+}
+.paso7{
+    grid-area: paso7;
+    margin: 10px;
+}
+.paso8{
+    grid-area: paso8;
+    margin: 10px;
+}

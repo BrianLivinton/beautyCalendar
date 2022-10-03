@@ -1,0 +1,65 @@
+@import "../scss/layout/barraNavegacion";
+@import "../scss/layout/cuerpo";
+@import "../scss/layout/footer";
+@import "../scss/layout/reset";
+@import "../scss/layout/titulo";
+
+.pieles{
+    display: grid;
+    grid-template-areas: 
+    
+    "normal normal seca seca"
+    "grasa grasa mixta mixta";
+    
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+ .inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 25px;
+ }
+ .textoImagen{
+    margin: 25px;
+    font-size: 25px;
+ }
+
+   
+  
+  
+  .pielNormal{
+      grid-area: normal;
+      margin: 25px;
+      text-align: center;
+      background-color: #BFB0A3;
+  }
+  .pielSeca{
+      grid-area: seca;
+      margin: 25px;
+      text-align: center;
+      background-color: #BFB0A3;
+  }
+  .pielGrasa{
+      grid-area: grasa;
+      margin: 25px;
+      text-align: center;
+      background-color: #BFB0A3;
+  
+  }
+  .pielMixta{
+      grid-area: mixta;
+      margin: 25px;
+      text-align: center;
+      background-color: #BFB0A3;
+  }
+  aside{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+ 
